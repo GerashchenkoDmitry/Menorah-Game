@@ -51,13 +51,9 @@ class ViewController: UIViewController {
     }
     
     func updateUI() {
-        var letters = [String]()
-        for letter in currentGame.formattedWord {
-            letters.append(String(letter))
-        }
-        let wordWithSpacing = letters.joined(separator: " ")
-        menorahImage.image = UIImage(named: "Menorah \(currentGame.incorrectMovesRemaining)")
-        correctWordLabel.text = wordWithSpacing
+        let mapped = game.formattedWord.compactMap { String($0) }
+        correctWordLabel.text = mapped.joined(separator: " ")
+        menorahImage.image = UIImage(named: "Menorah \(game.incorrectMovesRemaining)")
         scoreLabel.text = "Wins: \(totalWins) / Losses: \(totalLosses)"
     }
     

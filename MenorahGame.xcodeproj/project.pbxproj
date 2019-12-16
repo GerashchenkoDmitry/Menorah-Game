@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF807C8D233E0AB4004DB5F4 /* Apple Pie Second.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie Second.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF807C8D233E0AB4004DB5F4 /* Menorah Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Menorah Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF807C90233E0AB4004DB5F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF807C92233E0AB4004DB5F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF807C95233E0AB4004DB5F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		DF807C8E233E0AB4004DB5F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF807C8D233E0AB4004DB5F4 /* Apple Pie Second.app */,
+				DF807C8D233E0AB4004DB5F4 /* Menorah Game.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF807C8C233E0AB4004DB5F4 /* Apple Pie Second */ = {
+		DF807C8C233E0AB4004DB5F4 /* Menorah Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF807C9F233E0AB5004DB5F4 /* Build configuration list for PBXNativeTarget "Apple Pie Second" */;
+			buildConfigurationList = DF807C9F233E0AB5004DB5F4 /* Build configuration list for PBXNativeTarget "Menorah Game" */;
 			buildPhases = (
 				DF807C89233E0AB4004DB5F4 /* Sources */,
 				DF807C8A233E0AB4004DB5F4 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Apple Pie Second";
+			name = "Menorah Game";
 			productName = "Apple Pie Second";
-			productReference = DF807C8D233E0AB4004DB5F4 /* Apple Pie Second.app */;
+			productReference = DF807C8D233E0AB4004DB5F4 /* Menorah Game.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF807C8C233E0AB4004DB5F4 /* Apple Pie Second */,
+				DF807C8C233E0AB4004DB5F4 /* Menorah Game */,
 			);
 		};
 /* End PBXProject section */
@@ -287,13 +287,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5ULAX9V4M6;
-				INFOPLIST_FILE = "Apple Pie Second/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/MenorahGame/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Apple-Pie-Second";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Menorah-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -305,13 +305,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5ULAX9V4M6;
-				INFOPLIST_FILE = "Apple Pie Second/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/MenorahGame/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Apple-Pie-Second";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Menorah-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF807C9F233E0AB5004DB5F4 /* Build configuration list for PBXNativeTarget "Apple Pie Second" */ = {
+		DF807C9F233E0AB5004DB5F4 /* Build configuration list for PBXNativeTarget "Menorah Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF807CA0233E0AB5004DB5F4 /* Debug */,
